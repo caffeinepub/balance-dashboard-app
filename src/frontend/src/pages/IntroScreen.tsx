@@ -12,7 +12,10 @@ function IntroScreen({ onNavigate }: IntroScreenProps) {
       onClick={onNavigate}
     >
       <div className="text-center space-y-6">
-        <h1 className="text-[8rem] md:text-[12rem] lg:text-[16rem] font-bold tracking-[0.2em] leading-none">
+        <h1
+          className="font-bold tracking-[0.1em] leading-none w-full text-center px-4"
+          style={{ fontSize: "clamp(3rem, 15vw, 16rem)" }}
+        >
           BALANCE
         </h1>
         <p className="text-lg md:text-xl text-gray-400 italic tracking-wider">
